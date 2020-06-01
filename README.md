@@ -40,11 +40,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+SQL - Structured Query Language is the standard language used to manage databases and the data within them.
+
+Relational Databases - In relational databases, the data is stored in tabular format grouped into rows and columns (similar to spreadsheets). A collection of rows is called a table. Each row represents a single record in the table and is made up of one or more columns. So relational databases are databases that store their data in tables.
+
 - [ ] Why do tables need a `primary key`?
+
+We need primary keys to determine which column of table the system wants to reach or link the tables between with foreign keys.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign Key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+A many-to-many relationship between two relation 'A' and 'B' in which: 'A' may contain a parent row for which there are many children in 'B' and vice versa
 
 ## Minimum Viable Product
 
